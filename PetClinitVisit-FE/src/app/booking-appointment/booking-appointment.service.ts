@@ -7,7 +7,7 @@ import { BookAppointment } from '../bookappointment';
   providedIn: 'root'
 })
 export class BookAppointmentService {
-  private apiUrl = 'http://ec2-54-86-178-106.compute-1.amazonaws.com:8087/bookingAppointment'; // Spring Boot API endpoint
+  private apiUrl = 'http://localhost:8087'; // Spring Boot API endpoint
   constructor(private http: HttpClient) { }
    // Book Appointment
    bookAppointment(bookappointment: BookAppointment): Observable<any> {

@@ -1,10 +1,12 @@
-export class Pet{
+import { Owner } from './owner';
+
+export class Pet {
     constructor(
         public id: number,
-        public name:string,
-        public species:string,
+        public name: string,
+        public species: string,
         public breed: string,
-        public age: number | null,
-        public ownerId: number | null
-    ){}
+        public age: number,
+        public owner: Owner
+    ) {}
 }

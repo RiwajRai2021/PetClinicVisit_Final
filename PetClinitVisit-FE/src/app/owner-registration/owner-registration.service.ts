@@ -7,7 +7,7 @@ import { Owner } from '../owner';
   providedIn: 'root'
 })
 export class OwnerRegistrationService {
-  private apiUrl = 'http://ec2-54-86-178-106.compute-1.amazonaws.com:8085/owner'; // Spring Boot API endpoint
+  private apiUrl = 'http://localhost:8085/owner'; // Spring Boot API endpoint
   constructor(private http: HttpClient) { }
    // Register owner
    registerOwner(owner: Owner): Observable<any> {
