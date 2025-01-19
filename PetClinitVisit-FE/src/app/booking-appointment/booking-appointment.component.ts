@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';  // Import HttpClientModule here
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { BookAppointment } from '../bookappointment';
 import { HttpErrorResponse } from '@angular/common/http';
 import { BookAppointmentService } from './booking-appointment.service';
 
@@ -9,8 +10,8 @@ import { BookAppointmentService } from './booking-appointment.service';
   selector: 'app-book-appointment',
   standalone: true,
   imports: [FormsModule,HttpClientModule, CommonModule],
-  templateUrl: './book-appointment.component.html',
-  styleUrl: './book-appointment.component.css'
+  templateUrl: './booking-appointment.component.html',
+  styleUrl: './booking-appointment.component.css'
 })
 export class BookAppointmentComponent {
   bookappointment: BookAppointment = {

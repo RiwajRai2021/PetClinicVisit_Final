@@ -51,7 +51,7 @@ button:hover {
     margin: 0 auto; /* Center it horizontally */
 }
 .my-form {
-    background-image: url('assets/pet_clinic_bg.jpg'); /* Replace with your image URL */
+    background-image: url('assets/pet_clinic_visit_2.jpg'); /* Replace with your image URL */
     background-size: cover; /* Covers the entire form */    
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
